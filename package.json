@@ -5,7 +5,10 @@
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
   "module": "dist/module/index.js",
-  "repository": "https://github.com/solana-labs/token-list",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solana-labs/token-list.git"
+  },
   "license": "Apache",
   "keywords": [],
   "scripts": {
@@ -105,6 +108,15 @@
     ]
   },
   "dependencies": {
-    "cross-fetch": "3.0.6"
-  }
+    "@metaplex-foundation/js": "^0.20.1",
+    "@solana/web3.js": "^1.98.2",
+    "cross-fetch": "3.0.6",
+    "dotenv": "^16.5.0",
+    "nft.storage": "^7.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/solana-labs/token-list/issues"
+  },
+  "homepage": "https://github.com/solana-labs/token-list#readme",
+  "author": ""
 }
